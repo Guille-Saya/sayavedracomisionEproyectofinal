@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://kit.fontawesome.com/ab7d7faae0.js" crossorigin="anonymous"></script>
+    <title>Contacto GS Carpintería</title>
+    <link rel="shortcut icon" href="../multimedia/Multimedia/logo nuevo 2.svg">
+</head>
+<body class="fondo">
+    <header>
+        <header class="header">
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                <div class="container-fluid">
+                 <a class="navbar-brand animacion" href="../index.html">
+                    <img src="../multimedia/Multimedia/logo nuevo 2.svg" alt="Logo" class="d-inline-block align-text-top redondeado" width="40" height="40"> GS Carpintería</a>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="materiales.html">Materiales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="galería.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contacto.html">Contacto</a>
+                        </li>
+                </div>
+            </nav>
+    </header>
+    <main>
+
+        <section class="contact" id="contact">
+            <h2 class="contact-tittle">Contacto</h2>
+            <div class="contact-detalles-grupo">
+                <p class="contact-label">Dirección</p>
+                <p class="contac-text">Bengolea 1209 - La Emilia - Provincia de Buenos Aires</p>
+            </div>
+            <div class="contact-detalles-grupo">
+                <p class="contact-label">Email</p>
+                <p class="contac-text">guillermo.sayavedra@gmail.com</p>
+            </div>
+            <div class="contact-detalles-grupo">
+                <p class="contac-text">Contactese con nosotros por alguno de nuestros medios de comunicación</p>
+            </div>
+            <form class="contac-form">
+                <div class="contact-form-group">
+                    <label for="name">Nombre</label>
+                    <input required type="text" name="name" id="name">
+                </div>
+                <div class="contact-form-group">
+                    <label for="name">Email</label>
+                    <input required type="email" name="email" id="email">
+                </div>
+                <div class="contact-form-group">
+                    <label for="name">Mensaje</label>
+                    <textarea name="mesagge" id="mesagge" rows="10"></textarea>
+                </div>
+                <button type="submit" class="contact-form-submit">Enviar</button>
+            </form>
+            <nav class="social">
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a href="https://www.facebook.com/profile.php?id=100063530834097" target="_blank" onclick="deseaSalir()"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://www.instagram.com/gscarpinteria.ok/" target="_blank" onclick="deseaSalir()"><i class="fa-brands fa-instagram"></i></a>
+                    </li>                
+                    <li class="social-item">
+                        <a href="https://api.whatsapp.com/send?phone=3364679500&text=Hola, necesito mas informacion sobre el catalogo!" target="_blank" onclick="deseaSalir()"><i class="fa-brands fa-whatsapp"></i></a>
+                    </li>
+                </ul>
+            </nav>    
+        </section> 
+    </main>
+    <footer class="footer">
+        <div>&copy;Todos los derechos reservados - GS Carpintería - 2022 - La Emilia - Provincia de Buenos Aires - Argentina</div>
+    </footer>
+    <script src="../script.js"></script>
+</body>
+</html>

@@ -1,0 +1,354 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap');
+/* CONF GLOBAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FONDO */
+.fondo{
+    background-image: url(./multimedia/Multimedia/fondo\ trabajo\ final.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+/* BODY */
+body{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* MODIFICANDO H2 */
+h2{
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 3rem;
+}
+
+/* QUITANDO DECO A LINKS */
+a{
+    text-decoration: none; 
+}
+
+/* QUITANDO PUNTOS DE UL */
+ul{
+    list-style: none;
+}
+
+/* HEADER */
+.header {
+    background-color: #1d1b1a;
+    height: 0;
+    margin-bottom: 5rem;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+/* =============NAVBAR================ */
+    /* ANIMACION AGREGADA A NAV DE BOOTSTRAP */
+.animacion{
+    color: rgb(150, 112, 65);
+    text-size-adjust: auto; 
+
+    transition: 0.5s;
+}
+    /* REDONDEADO DE LOGO EN NAV DE BOOTSTRAP */
+.redondeado{
+    border-radius: 5px;
+}
+
+.nav-link{
+    color: rgb(236, 236, 221);
+    text-decoration: none;
+    padding: 0 10px;
+    row-gap: 20px;
+}
+    /* MODIFICANDO ITEMS DE NAV */
+.nav-item{
+    display: flex;
+    margin-right: 10px;
+    list-style: none;
+    font-size: 13px;
+    margin:0px 10px;
+    line-height: 50px;
+    text-transform: uppercase;  
+    border-radius: 5px;
+    transition: 1s; 
+}
+    /* ANIMACION DE ITEMS DE NAV */
+.nav-item:hover{
+background-color: rgba(76, 123, 145, 0.726);
+}
+/* =============FIN NAVBAR================ */
+
+/* =============PAG INICIO================ */
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+}
+
+.lista-item{
+    text-transform: uppercase;
+    font-size: 35px;   
+}
+
+.lista-nav{
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #0c0c0be3;
+    transition: 0.5s;
+}
+
+.lista-nav>a{
+    color:#967041;
+}
+
+.lista-nav:hover{
+    background-color: #131211;
+    transform: scale(1.1);
+}
+
+.lista{
+    display: grid;
+    margin: 15px 30px;
+    width: 600px;
+    height: auto;
+}
+
+.img{
+    height: 450px;
+    width: 1000px;
+}
+
+.img>img{
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px black;
+}
+/* =============FIN PAG INICIO================ */
+
+/* =============PAG MATERIALES================ */
+.container1{
+    margin: 10px 20px;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+    /* MODIFICACION CARD DE BOOTSTRAP */
+.card{
+    margin: 10px auto 10px;
+    border-color:  #967041;
+    border-radius: 5px;
+    border-width: 10px;
+    border-style: solid;
+}
+
+.costos-envio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* =============BOTON DE ENVIO DEL JAVASCRIPT============= */
+
+ .boton-envio {
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+    width: 100px;
+
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #1d1b1a;
+    color: beige;
+    font-family: 'Source Code Pro';
+    
+} 
+
+ .boton-envio:hover{
+    background-color: #312519;
+    transform: scale(1.1);
+}
+/* ============= FIN PAG MATERIALES================ */
+
+/* =============PAG GALERIA================ */
+.container2{
+    row-gap: 10px;
+    column-gap: 10px;
+    margin: 10px 10px;
+    padding: 50px 0 10px;
+    border-radius: 5px
+}
+
+.img-decorate{
+    border-radius: 10px;
+    transition: 1s;
+    margin-left: 4rem;
+    
+}
+
+.img-decorate:hover{
+    transform: scale(0.9);
+}
+
+.video-galeria{
+    display: flex;
+    justify-content: end;
+
+    margin-bottom: 1rem;
+}
+
+.descarga-boton{
+    background-color: #1d1b1a;
+    opacity: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.descarga-boton>h4{
+    color: white;
+}
+
+#boton-galeria{
+    margin-bottom: 1rem;
+}
+/* ============= FIN PAG GALERIA================ */
+
+
+/* GRID MODIFICADO DE BOOTSTRAP */
+.row{
+    row-gap: 20px;
+    border-radius: 5px;
+    border-color: #967041;
+    box-shadow: 10px black;
+}
+
+.col{
+    column-gap: 20px;
+    border-radius: 5px;
+    border-color:  #967041;
+    box-shadow: 10px black;
+}
+
+/* FOOTER */
+.footer{
+    background-color: #1d1b1a;
+    display: flex;
+    width: 100%;
+    height: 30px;
+    color:#967041;
+    text-align: center;
+    justify-content: center;
+    padding: 3rem;
+    margin-bottom: auto;
+}
+
+/* =============PAG CONTACTO================ */
+.contact{
+    margin: 200px;
+    margin-top: 100px;
+    justify-content: center;
+    background-color: #1d1b1a;
+    color: aliceblue;
+    font-size: 18px;
+    border-radius: 15px;
+    padding: 25px;
+    display: grid;
+    gap: 25px;
+    box-shadow: 10px black;
+}
+
+.contact-tittle{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contact-details,
+.contact-form{
+    display: grid;
+    gap: 20px;
+}
+
+.contact-details-group,
+.contact-form-group{
+    display: grid;
+    gap: 5px;
+}
+
+.contact-lebel{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea{
+  border-radius: 10px;
+  border: none;
+  height: 30px;
+  padding: 5px 10px;  
+}
+
+.contact-form textarea{
+    height: auto;
+    resize: vertical;
+}
+
+.contact-form-submit{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(11, 41, 68);
+    border-radius: 10px;
+    color: aliceblue;
+    border: 1px solid  #1d1b1a;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.contact-form-submit:hover{
+    box-shadow: 0 0 14px rgb(192, 192, 76);
+}
+/* FONTAWESOME MODIFICADO */
+.social-item{
+    list-style: none;
+    text-decoration: none;
+}
+
+.social-list{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.social-list img{
+    height: 25px;
+    width: auto;
+}
+
+.social-list img{
+    box-shadow: 0 0 15px rgb(192, 192, 76);
+}
+/* =============FIN PAG CONTACTO================ */
+
+/* =============PAG NOSOTROS================ */
+.nosotros{
+    margin-top: 90px;
+    text-align: center;
+}
+/* =============FIN PAG NOSOTROS================ */
